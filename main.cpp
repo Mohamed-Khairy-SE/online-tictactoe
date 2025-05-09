@@ -1,9 +1,9 @@
-#include <iostream>
-#include "gameLogic.h"
+#include <QApplication>
+#include "Qt.h"
 
-
-int main(){
-    GameLogic g;
-    std::cout << g.isEmpty({0,0});
-    return 0;
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+    tictactoeUI window;
+    window.show();
+    return app.exec();
 }

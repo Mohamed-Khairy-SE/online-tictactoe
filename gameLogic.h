@@ -5,8 +5,6 @@
     2- click hander
     3- set value
     4- check if the player has won
-    5- 
-    
     */
 #ifndef LOGIC
 #define LOGIC
